@@ -53,6 +53,7 @@ const App = () => {
           <div id='result'>
             <p>Name: <strong>{weather.name}</strong></p>
             <p>Temperature: <strong>{weather.main.temp} °C</strong> </p>
+            <p>Weather Condition: <strong>{weather.weather[0].description}</strong></p>
           </div>
         )}
       </div>
